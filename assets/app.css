@@ -1,5 +1,5 @@
 body {
-  font-size: 22px;
+  font-size: 22px !important;
 }
 
 i {
@@ -8,7 +8,7 @@ i {
 }
 
 i:hover {
-  color: #444
+  color: #444;
 }
 
 .vertical-center {
