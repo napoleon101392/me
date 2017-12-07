@@ -1,17 +1,14 @@
-html {
-  background: url("background.jpg") 50% 50% fixed;
-}
 body {
   font-size: 22px !important;
 }
 
 i {
-  color: #FFF;
+  color: #333;
   font-size: 22px;
 }
 
 i:hover {
-  color: #CCC;
+  color: #444;
 }
 
 .vertical-center {
