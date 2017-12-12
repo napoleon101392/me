@@ -1,18 +1,25 @@
 body {
-  font-size: 22px !important;
+  background: url('/assets/background.jpg') 50% 50% fixed;
+  background-size: cover;
+}
+
+h1, h2, h3 {
+  font-family: 'Berkshire Swash' !important;
+  font-size: 44px !important;
+  color: #fff !important;
 }
 
 i {
-  color: #333;
-  font-size: 22px;
+  color: #fff;
+  font-size: 22px !important;
 }
 
 i:hover {
-  color: #444;
+  color: #fff;
 }
 
 .vertical-center {
-  min-height: 100%; 
+  min-height: 100%;
   min-height: 100vh;
 
   display: flex;
@@ -21,4 +28,8 @@ i:hover {
 
 .card {
   padding: 2em;
+}
+
+.heading-text {
+  color: #fff;
 }
