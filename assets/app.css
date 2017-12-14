@@ -50,14 +50,26 @@ h1, h2, h3 {
 .text-shadow {
   text-shadow: 0px 2px 5px rgba(0,0,0,0.25);
 }
-
+a {
+  text-decoration: none;
+}
 i {
   color: #f5f5f5;
   font-size: 22px !important;
 }
 
-i:hover {
+i.fa-github,
+i.fa-linkedin {
+  transition: all .1s ease-out;
+}
+
+i.fa-github:hover {
   color: #fff;
+}
+
+i.fa-linkedin:hover, {
+  color: #0077B5;
+  text-shadow: none;
 }
 
 .vertical-center {
@@ -74,4 +86,16 @@ i:hover {
 
 .heading-text {
   color: #fff;
+}
+
+* > .fa.fa-hover-show,
+*:hover > .fa.fa-hover-hidden {
+  display: none;
+}
+*:hover > .fa.fa-hover-show {
+  display: inline-block;
+}
+
+a.text-primary {
+  text-decoration: none !important;
 }
