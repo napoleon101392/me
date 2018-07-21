@@ -1,4 +1,3 @@
-/* cyrillic */
 @font-face {
   font-family: 'Pacifico';
   font-style: normal;
@@ -31,19 +30,15 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
-/*body {
+body {
   background: url('https://napoleon101392.github.io/me/assets/img/background.jpg') 50% 50% fixed;
   background-size: cover;
-}*/
+}
 
 h1, h2, h3 {
   font-family: 'Pacifico', Helvetica, sans-serif;
   font-size: 44px !important;
   color: #fff !important;
-}
-
-section {
-  margin-bottom: 20px;
 }
 
 .page-heading .font-primary {
@@ -60,17 +55,6 @@ a {
 i {
   color: #f5f5f5;
   font-size: 22px !important;
-}
-
-.fa-github:before {
-  color: #f0f0f0;
-}
-.fa-linkedin:before {
-  color: #0077B5;
-}
-
-.fa {
-  color: #f0f0f0;
 }
 
 i.fa-github,
@@ -113,65 +97,4 @@ i.fa-linkedin:hover, {
 
 a.text-primary {
   text-decoration: none !important;
-}
-
-.top {
-  background: linear-gradient(#090909, #353535);
-}
-
-.adjust {
-  padding-top: 2px;
-}
-
-/* Profile container */
-.profile {
-  margin: 20px 0;
-}
-
-/* Profile Content */
-.profile-content {
-  padding: 20px;
-  background: #fff;
-  min-height: 460px;
-}
-
-.fb-image-lg{
-    z-index: 0;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.fb-image-profile
-{
-    margin: -90px 10px 1px 40%;
-    z-index: 9;
-    width: 20%;
-    border-radius: 8.25rem!important;
-}
-
-@media (max-width:768px)
-{
-.fb-image-profile
-{
-    margin: -45px 10px 0px 40%;
-    z-index: 9;
-    width: 20%;
-    border-radius: 8.25rem!important;
-}
-}
-
-/*Rating*/
-.rating-block{
-  background-color:#FAFAFA;
-  border:1px solid #EFEFEF;
-  padding:15px 15px 20px 15px;
-  border-radius:3px;
-}
-
-.php {
-  background: ;
-}
-
-.laravel {
-  background: #f44336 !important;
 }
